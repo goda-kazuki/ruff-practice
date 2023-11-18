@@ -2,6 +2,19 @@
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+## コマンド
+
+```bash
+# 通常のLint
+ruff check .
+
+# 修正込みのLint
+ruff check . --fix
+
+# 通常のFormatter
+ruff format .
+```
+
 ## 調べていること
 
 ### LinterとFormatterを兼ねているのか

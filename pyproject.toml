@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 119
+target-version = "py39"
+
+[tool.ruff.lint]
+ignore = ["E203","E501"]
+exclude =[".git",".venv","__pycache__","tests/*","node_modules"]
+select = ["I"]
+fixable = ["ALL"]
